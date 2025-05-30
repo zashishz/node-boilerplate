@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   // Use ts-jest preset for testing TypeScript files with Jest
   preset: "ts-jest",
   // Set the test environment to Node.js
