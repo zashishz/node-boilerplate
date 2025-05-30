@@ -1,9 +1,11 @@
 {
   "extends": "@tsconfig/node22/tsconfig.json",
-  "compilerOptins": {
+  "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
-    "forceConsistentCasingInFilesNames": true
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "src/**/*"
