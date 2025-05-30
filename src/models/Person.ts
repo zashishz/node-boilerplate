@@ -12,7 +12,7 @@ interface PersonAttributes {
   id: number;
   name: string;
 }
-
+// eslint-disable-next-line
 interface PersonCreationAttributes extends Optional<PersonAttributes, "id"> {}
 
 @Table({
